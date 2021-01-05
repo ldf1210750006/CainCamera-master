@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cgfay.caincamera">
+    <!-- 高通GPU调试权限 -->
+    <uses-permission android:name="com.qti.permission.PROFILER" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature android:name="android.hardware.type.watch" />
+    <uses-feature
+        android:glEsVersion="0x00030000"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:resizeableActivity="false"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/NoActionBarTheme">
+        <activity android:name=".activity.DuetRecordActivity" />
+        <activity android:name=".activity.VideoPlayerActivity"/>
+        <activity android:name=".activity.MusicPlayerActivity" />
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MusicMergeActivity" />
+        <activity
+            android:name=".activity.SpeedRecordActivity"
+            android:theme="@style/NoActionBarTheme" />
+        <activity
+            android:name=".activity.FFMediaRecordActivity"
+            android:theme="@style/NoActionBarTheme" />
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.4" />         <!-- 全面屏处理 -->
+        <meta-data
+            android:name="android.notch_support"
+            android:value="true" />        <!-- 刘海屏处理 -->
+    </application>
+
+</manifest>

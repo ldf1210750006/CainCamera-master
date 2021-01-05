@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/video_window_background"
+    tools:context="com.cgfay.caincamera.activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:background="@android:color/transparent"
+            android:textColor="@color/white"
+            android:text="@string/btn_camera"/>
+
+        <Button
+            android:id="@+id/btn_edit_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:background="@android:color/transparent"
+            android:textColor="@color/white"
+            android:text="@string/btn_edit_video"/>
+
+        <Button
+            android:id="@+id/btn_edit_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:background="@android:color/transparent"
+            android:textColor="@color/white"
+            android:text="@string/btn_edit_picture"/>
+
+        <Button
+            android:id="@+id/btn_speed_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:textColor="@color/white"
+            android:text="@string/btn_speed_record"/>
+
+        <Button
+            android:id="@+id/btn_edit_music_merge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:background="@android:color/transparent"
+            android:textColor="@color/white"
+            android:text="@string/btn_edit_music_merge"/>
+
+        <Button
+            android:id="@+id/btn_ff_media_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:background="@android:color/transparent"
+            android:textColor="@color/white"
+            android:text="@string/btn_ff_media_record"/>
+
+        <Button
+            android:id="@+id/btn_music_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:background="@android:color/transparent"
+            android:textColor="@color/white"
+            android:text="@string/btn_music_player"/>
+
+        <Button
+            android:id="@+id/btn_video_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp5"
+            android:background="@android:color/transparent"
+            android:textColor="@color/white"
+            android:text="@string/btn_video_player"
+            android:visibility="visible"/>
+
+      <Button
+        android:id="@+id/btn_duet_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp5"
+        android:background="@android:color/transparent"
+        android:textColor="@color/white"
+        android:text="@string/btn_duet_record"
+        android:visibility="visible"/>
+
+    </LinearLayout>
+
+</FrameLayout>

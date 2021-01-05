@@ -1,0 +1,34 @@
+{
+    "stickerList": [{
+        "type": "sticker",      // 贴纸类型，sticker表示普通贴纸
+        "centerIndexList": [43],// 贴纸中心点列表
+        "offsetX": 0,           // 贴纸x轴偏移量
+        "offsetY": 0.03984,     // 贴纸y轴偏移量
+        "baseScale": 1.7602,    // 贴纸缩放倍数(相对于人脸)
+        "startIndex": 6,        // 人脸起始位置
+        "endIndex": 26,         // 人脸结束位置，起始位置和结束位置用于求人脸宽度的
+        "width": 345,           // 贴纸宽度
+        "height": 251,          // 贴纸高度
+        "frames": 12,           // 贴纸帧数
+        "action": 0,            // 贴纸动作
+        "stickerName": "face",  // 贴纸名称
+        "duration": 50,         // 贴纸一帧的时间间隔
+        "stickerLooping": 1,    // 是否循环播放
+        "audioPath": "",        // 音乐路径
+        "audioLooping": 1,      // 音乐是否循环播放
+        "maxcount": 5           // 贴纸最大支持人脸数
+    }, {
+        "type": "frame",        // 贴纸类型,frame表示前景
+        "alignMode":1,          // 对齐方式
+        "width": 360,           // 贴纸宽度
+        "height": 549,          // 贴纸高度
+        "frames": 56,           // 贴纸帧数
+        "action": 0,            // 贴纸动作
+        "stickerName": "frame",    // 贴纸名称
+        "duration": 50,         // 贴纸一帧的时间间隔
+        "stickerLooping": 1,    // 贴纸是否循环播放
+        "audioPath": "",        // 音乐路径
+        "audioLooping": 1,      // 音乐是否循环播放
+        "maxcount": 5           // 贴纸支持最大人脸数
+    }]
+}
