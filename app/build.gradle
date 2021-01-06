@@ -4,7 +4,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion '29.0.3'
     defaultConfig {
-        applicationId "com.cgfay.caincamera"
+        applicationId "com.cgfay.caincamera2"
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 2

@@ -100,6 +100,7 @@ public class BrightnessUtils {
             lp.screenBrightness = brightness / (float) MAX_BRIGHTNESS;
         }
         activity.getWindow().setAttributes(lp);
+//        Settings.System.putInt(activity.getContentResolver(), Settings.System.SCREEN_BRIGHTNESS, 191);
     }
 
     /**

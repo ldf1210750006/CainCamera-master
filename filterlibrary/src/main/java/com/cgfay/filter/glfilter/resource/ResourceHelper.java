@@ -49,6 +49,8 @@ public final class ResourceHelper extends ResourceBaseHelper {
         mResourceList.add(new ResourceData("emo", "assets://resource/emo.zip", ResourceType.STICKER, "emo", "assets://thumbs/resource/emo.png"));
 //        mResourceList.add(new ResourceData("test_sticker1", "assets://resource/test_sticker1.zip", ResourceType.STICKER, "test_sticker1", "assets://thumbs/resource/sticker_temp.png"));
         mResourceList.add(new ResourceData("shengdanxueren", "assets://resource/shengdanxueren.zip", ResourceType.STICKER, "shengdanxueren", "assets://thumbs/resource/shengdanxueren.png"));
+        mResourceList.add(new ResourceData("2020_milu_v1", "assets://resource/2020_milu_v1.zip", ResourceType.STICKER, "2020_milu_v1", "assets://thumbs/resource/2020_milu_v1.png"));
+        mResourceList.add(new ResourceData("Thanksgiving_huoji_v1", "assets://resource/Thanksgiving_huoji_v1.zip", ResourceType.STICKER, "Thanksgiving_huoji_v1", "assets://thumbs/resource/Thanksgiving_huoji_v1.png"));
         mResourceList.add(new ResourceData("triple_frame", "assets://resource/triple_frame.zip", ResourceType.FILTER, "triple_frame", "assets://thumbs/resource/triple_frame.png"));
         mResourceList.add(new ResourceData("horizontal_mirror", "assets://resource/horizontal_mirror.zip", ResourceType.FILTER, "horizontal_mirror", "assets://thumbs/resource/horizontal_mirror.png"));
         mResourceList.add(new ResourceData("vertical_mirror", "assets://resource/vertical_mirror.zip", ResourceType.FILTER, "vertical_mirror", "assets://thumbs/resource/vertical_mirror.png"));
