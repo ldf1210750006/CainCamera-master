@@ -761,9 +761,9 @@ public class CameraPreviewFragment extends Fragment implements View.OnClickListe
             if (mBtnStickers != null) {
                 mBtnStickers.setVisibility(View.VISIBLE);
             }
-            if (mBtnRecord != null) {
-                mBtnRecord.setVisibility(View.VISIBLE);
-            }
+//            if (mBtnRecord != null) {
+//                mBtnRecord.setVisibility(View.VISIBLE);
+//            }
 //            if (mLayoutDelete != null) {
 //                mLayoutDelete.setVisibility(View.VISIBLE);
 //            }
