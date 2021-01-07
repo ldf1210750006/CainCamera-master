@@ -81,6 +81,7 @@ public class CameraController implements ICameraController, Camera.PreviewCallba
             mCamera.cancelAutoFocus();
             parameters.setFocusMode(Camera.Parameters.FOCUS_MODE_CONTINUOUS_VIDEO);
         }
+        parameters.setPreviewFrameRate(10);
         mCamera.setParameters(parameters);
         setPreviewSize(mCamera, mPreviewWidth, mPreviewHeight);
         setPictureSize(mCamera, mPreviewWidth, mPreviewHeight);

@@ -35,7 +35,7 @@ public class CameraActivity extends AppCompatActivity {
                     .replace(R.id.fragment_container, mPreviewFragment, FRAGMENT_CAMERA)
                     .commit();
         }
-        //faceTrackerRequestNetwork();
+        faceTrackerRequestNetwork();
     }
 
     /**
