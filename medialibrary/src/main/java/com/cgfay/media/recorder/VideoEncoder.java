@@ -57,6 +57,15 @@ final class VideoEncoder {
         format.setInteger(MediaFormat.KEY_BIT_RATE, params.getBitRate());
         format.setInteger(MediaFormat.KEY_FRAME_RATE, VideoParams.FRAME_RATE);
         format.setInteger(MediaFormat.KEY_I_FRAME_INTERVAL, VideoParams.I_FRAME_INTERVAL);
+        //强制编码一个I帧
+//        if (System.currentTimeMillis() - timeStamp >= 1000) {//1000毫秒后，设置参数
+//            timeStamp = System.currentTimeMillis();
+//            if (Build.VERSION.SDK_INT >= 23) {
+//                Bundle params = new Bundle();
+//                params.putInt(MediaCodec.PARAMETER_KEY_REQUEST_SYNC_FRAME, 0);
+//                mMediaCodec.setParameters(params);
+//            }
+//        }
         if (Build.VERSION.SDK_INT >= 21) {
             int profile = 0;
             int level = 0;
